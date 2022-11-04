@@ -10,6 +10,8 @@
   <!--FONT AWESOME-->
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
   <!--..........UNICONS...........-->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -31,7 +33,6 @@
   <!----------- CODE SNIPPET FOR RESPONSIVE NAV BAR------------------>
   <!--mobile navbar logo-->
   
-
 
 
   <!--hamburger-->
@@ -99,6 +100,64 @@
   </div>
   <!--NAVIGATION BAR END-->
 
+
+  <div class="mobile-menu-div">
+  
+
+  <div class="top-nav">
+    
+    <div class="mobile-logo">
+      <img src="images/logo.png">
+     </div>
+
+    <div class="menu">
+      
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+    <div class="menu-close">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+  </div>
+  
+
+  <div class="menu-background"></div>
+  <div class="menu-panel">
+    <div class="mobile-logo">
+      <img src="images/logo.png">
+     </div>
+    <div class="menu-links">
+      <a href="AboutRotary.html">About us &nbsp; ></a>
+      <br>
+      <a href="News.html">News &nbsp; ></a>
+      <br>
+      <a href="contactUs.html">Contact Us &nbsp; ></a>
+
+      <br>
+      <a href="Gallery.html">Gallery &nbsp; ></a>
+    </div>
+
+
+  <div class="mobile-menu-btns">
+    <a class="mobile-menu-btn" href="memberShip.html">Become a member</a>
+    <a class="mobile-menu-btn mobile-donate" href="">Donate</a>
+  </div>
+  </div>
+
+
+</div>
+
+
+
+
+  
+
+
+
+
+  
 
   <div class="first-carousel">
     <div class="first-carousel-container">
@@ -374,6 +433,8 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
+   
+
   <!--.................FOOTER..............-->
   <footer style="width: auto;">
 
@@ -446,6 +507,32 @@
     </div>
 
   </footer>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script>
+    
+      
+      $(document).ready(function(){
+          $('.menu-close').hide();
+      
+          $('.menu').click(function(){
+              $('.menu-panel').toggleClass('show');
+              $('.menu-background').toggleClass('show');
+              $('.menu').hide();
+              $('.menu-close').show();
+          });
+          $('.menu-close').click(function(){
+              $('.menu-panel').removeClass('show');
+              $('.menu-background').removeClass('show');
+              $('.menu').show();
+              $('.menu-close').hide();
+          });
+      });
+          </script>
 
 
 </body>
