@@ -1444,6 +1444,8 @@ input:checked+.radio-title h6{
   }
   
   .menu-panel {
+    overflow-x: hidden;
+    overflow-y: auto;
     width: 400px;
     right: -400px;
     height: 100vh;
