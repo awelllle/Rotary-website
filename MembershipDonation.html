@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--LINK TO CSS FILE-->
   <link rel="stylesheet" href="css/style.css">
-  
+  <link rel="stylesheet" href="css/responsiveNavbarStyle.css">
 
   <!--..........UNICONS...........-->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -26,7 +26,26 @@
 
 <body>
  <!--NAVIGATION BAR-->
- <nav class="navbar navbar-expand-lg py-3 sticky-top">
+ <div class="responsive-nav-bar">
+  <div class="mobile_nav_logo">
+    <div class="nav-logo">
+      <div class="nav-logo-left">
+        <h3>Rotary</h3>
+        <h5>Club of Warri</h5>
+      </div>
+      <div class="nav-logo-right">
+        <img src="images/image 4.png">
+      </div>
+    </div>
+  </div>
+  <input class="nav-hamburger" type="checkbox"/>
+  <div class="responsive-nav-bar-cont">
+  
+
+    <!----------- END OF CODE SNIPPET FOR RESPONSIVE NAVBAR------------------>
+
+<nav class="navbar navbar-expand-lg py-3 sticky-top">
+
   <div class="nav-container">
 
     <div class="nav-logo">
@@ -38,11 +57,8 @@
         <img src="images/image 4.png">
       </div>
     </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="nav-menu collapse navbar-collapse" id="navbarNav">
+    
+    <div class="nav-menu" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
@@ -62,14 +78,66 @@
       </ul>
     </div>
 
-      <div>
+    <div>
       <!--BUTTONS ON NAVBAR-->
-        <button class="nav-btn nav-btn1"><a id="nav-btn1-text" href="memberShip.html">Become a member</a></button>
-        <button class="nav-btn nav-btn2"><a href="MembershipDonation.html">Donate</a></button>
+      <button class="nav-btn nav-btn1"><a id="nav-btn1-text" href="memberShip.html">Become a member</a></button>
+      <button class="nav-btn nav-btn2"><a href="MembershipDonation.html">Donate</a></button>
     </div>
   </div>
+
 </nav>
+  </div>
+</div>
 <!--NAVIGATION BAR END-->
+
+<div class="mobile-menu-div">
+  
+
+  <div class="top-nav">
+    
+    <div class="mobile-logo">
+      <img src="images/logo.png">
+     </div>
+
+    <div class="menu">
+      
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+    <div class="menu-close">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+  </div>
+  
+
+  <div class="menu-background"></div>
+  <div class="menu-panel">
+    <div class="mobile-logo">
+      <img src="images/logo.png">
+     </div>
+    <div class="menu-links">
+      <a href="AboutRotary.html">About us &nbsp; ></a>
+      <br>
+      <a href="News.html">News &nbsp; ></a>
+      <br>
+      <a href="contactUs.html">Contact Us &nbsp; ></a>
+
+      <br>
+      <a href="Gallery.html">Gallery &nbsp; ></a>
+    </div>
+
+
+  <div class="mobile-menu-btns">
+    <a class="mobile-menu-btn" href="memberShip.html">Become a member</a>
+    <a class="mobile-menu-btn mobile-donate" href="">Donate</a>
+  </div>
+  </div>
+
+
+</div>
+
   <div class="dontateImage">
     <p class="donateText">Membership Donation</p>
   </div><br><br>
@@ -319,6 +387,28 @@ color: #000000;
 
   </footer>
 
+  <script src="js/jquery-3.3.1.min.js"></script>
+  
+  <script>
+  
+    
+    $(document).ready(function(){
+        $('.menu-close').hide();
+    
+        $('.menu').click(function(){
+            $('.menu-panel').toggleClass('show');
+            $('.menu-background').toggleClass('show');
+            $('.menu').hide();
+            $('.menu-close').show();
+        });
+        $('.menu-close').click(function(){
+            $('.menu-panel').removeClass('show');
+            $('.menu-background').removeClass('show');
+            $('.menu').show();
+            $('.menu-close').hide();
+        });
+    });
+        </script>
 
 
 </body>
