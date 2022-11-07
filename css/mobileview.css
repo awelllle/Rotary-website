@@ -34,9 +34,39 @@
     .newstextmobile{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 50px;
     line-height: 61px;
     display: flex;
+    align-items: center;
+    margin-left: 7%;
     }
+    .news1{
+        display: flex;
+    }
+}
+
+/*contact us*/
+@media (max-width:414px){
+    .getIn-touch{
+        margin: 0%;
+    }
+    .contactMessage{
+        height: 30vh;
+    }
+    
+}
+/*Gallery page*/
+@media (max-width:414px) {
+    .galleryText{
+        top: 300px;
+    }
+    .galleryTxt{
+        top: 361px;
+    }
+    .galleryImg{
+        grid-template-columns: repeat(1, minmax(250px, 1fr));
+    }
+    
+    
 }

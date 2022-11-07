@@ -800,7 +800,7 @@ font-size: 20.2486px;
 
 @media(max-width: 576px){
     .individualNews{
-        width:100%;
+        width:90%;
         justify-content: center;
     }
     .news1 {
@@ -819,7 +819,7 @@ font-size: 20.2486px;
 }
 @media(max-width: 768px){
     .individualNews{
-        width:100%;
+        width:90%;
         justify-content: center;
     }
     .news1 {
