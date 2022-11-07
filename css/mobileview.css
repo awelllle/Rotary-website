@@ -15,6 +15,24 @@
 
 
 }
+@media (max-width: 760px){
+    .first-carousel {
+        height: 350px;
+    }
+    #section{
+        padding: 1vh;
+    }
+    .ourCauses{
+        margin-top: 30px;
+    }
+    .ourCauses-col {
+        display: list-item;
+    }
+
+
+}
+
+
 /*about us page*/
 @media (max-width: 414px){
 .aboutUs{
