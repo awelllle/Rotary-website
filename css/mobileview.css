@@ -14,55 +14,18 @@
     }
 
 
+
 }
-@media (max-width: 760px){
+
+@media (min-width: 768px){
     .first-carousel {
-        height: 350px;
+        height: 40vh;
     }
     #section{
-        padding: 1vh;
-    }
-    .ourCauses{
-        margin-top: 30px;
-    }
-    .ourCauses-col {
-        display: list-item;
-    }
-
-
-}
-
-
-/*about us page*/
-@media (max-width: 414px){
-.aboutUs{
-    display: none;
-}
-.what-we-do-container{
-    display: flex!important;
-    
-}
-
-}
-/*news page*/
-@media (max-width:414px){
-    .NewsImage{
-        display: none;
-    }
-    .newstextmobile{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 61px;
-    display: flex;
-    align-items: center;
-    margin-left: 7%;
-    }
-    .news1{
-        display: flex;
+        padding-top: 20px;
     }
 }
+
 
 /*contact us*/
 @media (max-width:414px){
@@ -111,3 +74,29 @@
         display: none;
     }
 }
+/*footer section*/
+@media(max-width: 414px){
+    .footer-subscribe-desktop{
+        display: none!important;
+    }
+    .footer-subscribe{
+        display: block!important;
+        margin-bottom: 2.5rem;
+    }
+    .footer-box2{
+        display: none;
+    }
+    .footer-info-desktop{
+        display: none;
+    }
+    .footer-information{
+        display: block;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+        
+    

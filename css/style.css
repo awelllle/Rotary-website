@@ -428,6 +428,12 @@ footer {
     height: auto;
     background-color: #05195C;
 }
+.footer-subscribe{
+    display: none!important;
+}
+.footer-information{
+    display: none;
+}
 .footer-box2{
     border-left: solid white 1px;
 }
