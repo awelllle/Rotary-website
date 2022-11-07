@@ -59,10 +59,14 @@
 /*Gallery page*/
 @media (max-width:414px) {
     .galleryText{
-        top: 300px;
+        top: 270px;
+        width: auto;
+        font-size: 35px;
     }
     .galleryTxt{
-        top: 361px;
+        top: 331px;
+        font-size: 15px;
+        width: auto;
     }
     .galleryImg{
         grid-template-columns: repeat(1, minmax(250px, 1fr));

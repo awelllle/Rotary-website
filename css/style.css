@@ -1498,7 +1498,7 @@ input:checked+.radio-title h6{
 
   .mobile-menu-btns
   {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .mobile-menu-btn
@@ -1525,10 +1525,7 @@ input:checked+.radio-title h6{
   
   }
 
-  .menu-links
-  {
-    margin-top: 95px
-  }
+  
 
 
   .menu-links a{
