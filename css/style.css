@@ -1468,6 +1468,7 @@ input:checked+.radio-title h6{
   
   .menu-panel.show {
     right: 0px;
+    left: 20%;
     background-color: #161010;
     -webkit-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
