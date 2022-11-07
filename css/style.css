@@ -1344,11 +1344,15 @@ height: 426px;
 *{
     box-sizing: border-box;
 }
+.container-donate-amount{
+    display: inline-flex;
+}
 .contaniner-for-donate{
    display:inline-flex;
    justify-content:center;
    align-items:center;
    height: 25vh;
+   
 }
 
 .input-container{
