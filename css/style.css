@@ -708,6 +708,9 @@ font-size: 20.2486px;
 
     color: #FFFFFF;
 }
+.newstextmobile{
+    display: none;
+}
 
 .NewsImage {
     width: auto;

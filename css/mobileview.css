@@ -1,0 +1,42 @@
+/*home page*/
+@media (max-width: 414px){
+    .first-carousel {
+        display: none;
+    }
+    #section{
+        padding: 1vh;
+    }
+    .ourCauses{
+        margin-top: 30px;
+    }
+    .ourCauses-col {
+        display: list-item;
+    }
+
+
+}
+/*about us page*/
+@media (max-width: 414px){
+.aboutUs{
+    display: none;
+}
+.what-we-do-container{
+    display: flex!important;
+    
+}
+
+}
+/*news page*/
+@media (max-width:414px){
+    .NewsImage{
+        display: none;
+    }
+    .newstextmobile{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    display: flex;
+    }
+}
