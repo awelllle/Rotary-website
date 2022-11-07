@@ -70,3 +70,22 @@
     
     
 }
+/*become a member page*/
+@media (max-width:414px) {
+    .membershipText{
+        font-size: 33px;
+        top: 301px;
+        left: 30px;
+        width: auto;
+
+    }  
+    .membershipTxt{
+        font-size: 18.5px;
+        top: 350px;
+        left: 30px;
+        width: auto;
+    }
+    .labelHint{
+        display: none;
+    }
+}
