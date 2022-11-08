@@ -1426,7 +1426,6 @@ input:checked+.radio-title h6{
   
   .menu, .menu-close {
     position: absolute;
-    background: black;
     right: 15px;
     top: 50%;
     transform: translateY(-50%);
@@ -1434,6 +1433,7 @@ input:checked+.radio-title h6{
   }
   
   .menu-line {
+      border: 1px solid black;
       width: 35px;
       height: 2px;
       background-color: white;
