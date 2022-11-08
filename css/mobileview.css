@@ -1,4 +1,5 @@
 /*home page*/
+/*mini phone*/
 @media (max-width: 414px){
     .first-carousel {
         display: none;
@@ -12,12 +13,44 @@
     .ourCauses-col {
         display: list-item;
     }
-
-
-
 }
+/*phone screen*/
+@media (max-width: 512px){
+.first-carousel {
+    height: 100vh;
+}
+#section{
+    padding-top: 20px;
+}
+.ourCauses{
+    margin-top: 30px;
+}
+.ourCauses-col {
+    display: list-item;
+}
+.footer-subscribe-desktop{
+    display: none!important;
+}
+.footer-subscribe{
+    display: block!important;
+    margin-bottom: 2.5rem;
+}
+.footer-box2{
+    display: none;
+}
+.footer-info-desktop{
+    display: none;
+}
+.footer-information{
+    display: block!important;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+}
+/*ipad*/
 
-@media (min-width: 768px){
+/*@media (min-width: 768px){
     .first-carousel {
         height: 40vh;
     }
@@ -26,9 +59,15 @@
     }
 }
 
-
+/*About us*/
+@media (max-width: 512px) {
+    .what-we-do-container{
+        display: flex!important;
+    
+    }
+}
 /*contact us*/
-@media (max-width:414px){
+@media (max-width:512px){
     .getIn-touch{
         margin: 0%;
     }
@@ -38,7 +77,7 @@
     
 }
 /*Gallery page*/
-@media (max-width:414px) {
+@media (max-width:512px) {
     .galleryText{
         top: 270px;
         width: auto;
@@ -56,7 +95,7 @@
     
 }
 /*become a member page*/
-@media (max-width:414px) {
+@media (max-width:512px) {
     .membershipText{
         font-size: 33px;
         top: 301px;
@@ -73,7 +112,34 @@
     .labelHint{
         display: none;
     }
+    .asterrisk-signature{
+        display: none;
+    }
+    .asterisk-occupation{
+        display: none;
+    }
 }
+/*news page*/
+@media (max-width:512px){
+    .NewsImage{
+        display: none;
+    }
+    .newstextmobile{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 61px;
+        display: flex;
+        align-items: center;
+        margin: 2% 7%;
+        }
+        .news1{
+            display: flex;
+        }
+    
+}
+
 /*footer section*/
 @media(max-width: 414px){
     .footer-subscribe-desktop{
