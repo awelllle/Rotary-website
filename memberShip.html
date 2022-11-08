@@ -82,7 +82,7 @@
       <div>
         <!--BUTTONS ON NAVBAR-->
         <button class="nav-btn nav-btn1"><a id="nav-btn1-text" href="memberShip.html">Become a member</a></button>
-        <button class="nav-btn nav-btn2"><a href="MembershipDonation.html">Donate</a></button>
+        
       </div>
     </div>
   
@@ -194,7 +194,7 @@
 
       </div>
       <div class="form-field col-lg-12">
-        <label style="height: 80px;" for="occupation" class="label">Occupation<p style="color: red; float: right; position: absolute; left: 10%; top: 0% ;">*</p>
+        <label style="height: 80px;" for="occupation" class="label">Occupation<p class="asterisk-occupation" style="color: red; float: right; position: absolute; left: 10%; top: 0% ;">*</p>
           <p class="labelHint">Please list your position / title.
             If retired, list previous primary occupation.</p>
         </label>
@@ -265,7 +265,7 @@
 
       </div>
       <div class="form-field col-lg-9">
-        <label style="height: 189px;" for="applicantSignature" class="label">Applicant Signature<p
+        <label style="height: 189px;" for="applicantSignature" class="label">Applicant Signature<p class="asterrisk-signature"
             style="color: red; float: right;  position: absolute; left: 23%; top: 0% ;">*</p>
           <p class="labelHint">Please type in your full name, which serves as your digital signature and
             certifies that all information contained in this application is true and accurate.<br />
@@ -337,7 +337,19 @@ color: white;">submit</button>
   <footer style="width: auto;">
 
     <div class=" grid footer-container">
-      <div class="row row-cols-2" style="margin-top: 1rem;">
+      <div class="row row-cols-2 footer-subscribe-desktop" style="margin-top: 1rem;">
+
+        <div class="">
+          <img src="/images/Vector.png"><b style="color: white;">Sign up to get Latest Updates</b>
+        </div>
+        <div class="input-group w-auto p-1">
+          <input type="text" id="Email" name="Email" placeholder="Your Email Address" class="form-control"
+            style="width: 30%;">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </div>
+      </div>
+      <!--mobile view-->
+      <div class="footer-subscribe" style="margin-top: 1rem;">
 
         <div class="">
           <img src="/images/Vector.png"><b style="color: white;">Sign up to get Latest Updates</b>
@@ -351,11 +363,8 @@ color: white;">submit</button>
     </div>
     <!-- <hr style="color: white"> -->
 
-    <div class="container grid">
+    <div class="container grid footer-info-desktop">
       <div class="row row-cols-2">
-
-
-
 
         <div style="color: white; padding-top: 2rem;">
           <p style="font-size: 17px; font-weight: 600; font-style: normal;"><i class="uil uil-location-point"></i> Our
@@ -398,13 +407,33 @@ color: white;">submit</button>
         </div>
       </div>
     </div>
+
+    <!--MOBILE VIEW-->
+    <div class="footer-information" style="color: white; padding-top: 2rem;">
+      <p style="font-size: 17px; font-weight: 600; font-style: normal;"><i class="uil uil-location-point"></i> Our
+        Location</p>
+      <p>Rotary Club of Warri</p>
+      <p>2, Emure Street, <br />
+        Opposite Dekta Career College,<br />
+        Off Airport Road,<br />
+        Warri,<br />
+        Delta State</p><br>
+      <p style="font-size: 17px; font-weight: 600; font-style: normal;"><i class="uil uil-mobile-android"></i>
+        Meeting Time</p>
+      <p>Every Tuesdays,</p>
+      <p>5:00pm - 5:30pm</p><br>
+
+      <p style="font-size: 17px; font-weight: 600; font-style: normal;"><i class="uil uil-envelope-alt"></i> Email
+        Address</p>
+      <p>Loruem ibuem Rd,</p>
+
+
+    </div>
     <div style="border-top: 2px solid #fff; margin: 0;">
       <p style="color: white; 
     text-align: center;
     letter-spacing: 0.07em;">Copyright 2022 All Rights Reserved</p><br><br>
     </div>
-
-
 
   </footer>
 
